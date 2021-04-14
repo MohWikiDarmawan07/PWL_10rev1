@@ -18,3 +18,4 @@ Route::resource('articles', ArticleController::class);
 */
 
 Route::resource('mahasiswa', MahasiswaController::class);
+Route::get('/article/cetak_pdf', [ArticleController::class, 'cetak_pdf']);
